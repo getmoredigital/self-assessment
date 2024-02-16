@@ -9,31 +9,40 @@ The system should be able to generate unique tests, which evalute for certian pr
 In order to chart progress. The system will generate a floating point score between 0-10, where 0 is no knowledge and 6 is expert knowledge. The system should be also be able to suggest areas to focus learning and micro-projects to work on for that level.
 
 ## Abilites
-- [] Take in a subject target and gage appropriate format
-- [] Generate unique tests
-- [] Evaluate for certain principles
-- [] Generate a floating point score
-- [] Suggest areas to focus learning
-- [] Suggest micro-projects to work on
-- [] Generate a repository or report demostrating the principles tested
+- [ ] Take in a subject target and gage appropriate format
+- [ ] Generate unique tests
+- [ ] Evaluate for certain principles
+- [ ] Generate a floating point score
+- [ ] Suggest areas to focus learning
+- [ ] Suggest micro-projects to work on
+- [ ] Generate a repository or report demostrating the principles tested
 
 ## Initital Areas
 ### Categories
-- [] Programming Languages (E.g. Javascript, Python, C++)
-- [] Topics (e.g. Machine Learning, Data Science, Career Readiness)
-- [] Data (e.g. SQL, Regex, Graph, HTML, XML, JSON, YAML, TOML)
-- [] Design (e.g. Css, SVG, Canvas, WebGL)
+- [ ] Programming Languages (E.g. Javascript, Python, C++)
+- [ ] Topics (e.g. Machine Learning, Data Science, Career Readiness)
+- [ ] Data (e.g. SQL, Regex, Graph, HTML, XML, JSON, YAML, TOML)
+- [ ] Design (e.g. Css, SVG, Canvas, WebGL)
 
 ### Possible subcategories for Programming Languages
-- [] Libraries (e.g. fp-ts, lodash, underscore, rxjs )
-- [] Frameworks (e.g. React, Vue, Angular)
-- [] Ecosystem (e.g. Node, NPM, Yarn, Webpack, Babel)
+- [ ] Libraries (e.g. fp-ts, lodash, underscore, rxjs )
+- [ ] Frameworks (e.g. React, Vue, Angular)
+- [ ] Ecosystem (e.g. Node, NPM, Yarn, Webpack, Babel)
 
 ### Possible subcategories for Topics
-- [] Services
-- [] Applications
+- [ ] Services
+- [ ] Applications
 
 ### Possible subcategories for Data
-- [] Services
-- [] Applications
-- [] Tools
+- [ ] Services
+- [ ] Applications
+- [ ] Tools
+
+## Stack
+Currently thinking:
+- Go
+- Data: Pocketbase or SQLite
+- Local Server: No Framework, Gin, or Echo
+- CLI: Bubble Tea & Lipgloss
+- UI: Static, React or Vue
+- Config: TOML
